@@ -27,7 +27,7 @@ public class GrabbingHand : MonoBehaviour {
   public float releaseTriggerDistance = 1.2f;
 
   // Maximum distance of an object that we can grab when pinching.
-  public float grabObjectDistance = 2.0f;
+  public float grabObjectDistance = 3.0f;
 
   // If the object gets far from the pinch we'll break the bond.
   public float releaseBreakDistance = 0.3f;

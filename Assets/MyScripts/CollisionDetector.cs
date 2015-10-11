@@ -20,6 +20,9 @@ public class CollisionDetector : MonoBehaviour {
 //	void OnCollisionEnter(Collision other){
 	void OnTriggerEnter(Collider other) {
 		Debug.Log ("Collided");
+		if (other.gameObject.tag == "index") {
+			Debug.Log ("index");
+		}
 		colourChangeCollision = true;
 		currentDelay = Time.time + colourChangeDelay;
 

@@ -62,5 +62,6 @@ public class GrabbableObject : MonoBehaviour {
         breakJoint.breakTorque = Mathf.Infinity;
       }
     }
+	 GetComponent<Rigidbody>().velocity = Vector3.zero;
   }
 }

@@ -73,4 +73,7 @@ public class RigidFinger : SkeletalFinger {
       }
     }
   }
+	void onCollisionEnter(Collider other){
+		Debug.Log ("Collided");
+	}
 }
